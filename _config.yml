@@ -110,24 +110,24 @@ author:
   location         : "Seoul, South Korea"
   email            :
   links:
-    - label: "Email"
+    - label: "sengminyoun96@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      url: "sengminyoun96@gmail.com"
+      url: #"sengminyoun96@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCJgdtZBN4y_g7WpdUlowMWA"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/SengMinYoun"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/seng_is_me"
 
 # Site Footer
 footer:
