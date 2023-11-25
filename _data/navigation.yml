@@ -22,3 +22,9 @@ docs:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+counts:
+  - title: 'Categories'
+    use: true
+  - title: 'tags'
+    use: true

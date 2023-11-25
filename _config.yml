@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Seng Min Youn 윤성민"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/Blog Logo.png"
   bio              : "An aspiring Data Scientist"
   location         : "Seoul, South Korea"
   email            :
@@ -150,6 +150,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/seng_is_me/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCJgdtZBN4y_g7WpdUlowMWA"
 
 
 # Reading Files
