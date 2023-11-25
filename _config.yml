@@ -110,9 +110,9 @@ author:
   location         : "Seoul, South Korea"
   email            :
   links:
-    - label: "sengminyoun96@gmail.com"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: #"sengminyoun96@gmail.com"
+      url: "sengminyoun96@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -230,7 +230,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll/figure
 
 # mimic GitHub Pages with --safe
 whitelist:
