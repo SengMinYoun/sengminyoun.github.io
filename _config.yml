@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "Seng Min Youn 윤성민"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A **soon to be** Data Scientist"
-  location         : "Seoul, Korea"
+  bio              : "A **citizen** Data Scientist"
+  location         : "Seoul, South Korea"
   email            :
   links:
     - label: "Email"
