@@ -19,8 +19,8 @@ locale                   : "en-US"
 title                    : "Seng's Data Notes 윤성민 데이터 노트"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : 
-description              : 
+name                     : "Seng Min"
+description              : "My journey to becoming a data scientist"
 url                      : "https://sengminyoun.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
