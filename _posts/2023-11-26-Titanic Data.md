@@ -256,3 +256,4 @@ print(dt.predict_proba(dicaprio))
 ```
 
 ![image-20231126201823710](/images/2023-11-26-Titanic Data/image-20231126201823710.png)
+
