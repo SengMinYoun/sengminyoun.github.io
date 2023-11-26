@@ -106,13 +106,20 @@ analytics:
 author:
   name             : "Seng Min Youn 윤성민"
   avatar           : "/assets/images/Blog logo.png"
-  bio              : "An aspiring Data Scientist"
+  bio              : >- 
+    My name is Seng. 
+    I am an aspiring data scientist. 
+    I was born in Korea, but I grew up mostly in Hong Kong. 
+    I am currently serving in the ROK Army as an Interpretation officer/English instructor. 
+    Read more about me :  **[About Me](/aboutme/)**.
+
+
   location         : "Seoul, South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "sengminyoun96@gmail.com"
+      url: "mailto:sengminyoun96@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
