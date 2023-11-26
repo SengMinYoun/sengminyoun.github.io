@@ -22,7 +22,8 @@ In my spare time, I like to play the guitar and listen to music.
 
 ### Education ###
 ---
-Hanyang University - Bachelors in Business Administration 2019 ~ 2021 (transferred)
+Hanyang University - Bachelors in Business Administration    
+2019 ~ 2021 (transferred)
 
 ### Experience ###
 ---
