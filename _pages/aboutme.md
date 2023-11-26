@@ -5,7 +5,6 @@ permalink: /aboutme/
 author_profile: false
 sidebar_main: true
 ---
-
 ### Background ### 
 ---
 <p> 
@@ -22,13 +21,24 @@ In my spare time, I like to play the guitar and listen to music.
 
 ### Education ###
 ---
+<p>
+Georgia Tech - Online Masters in Data Analytics
+<br>2023 ~
+</p>
+<p>
 Hanyang University - Bachelors in Business Administration    
-2019 ~ 2021 (transferred)
+<br>2019 ~ 2021 (transferred)
+</p>
 
-### Experience ###
+
+
+### Work Experience ###
 ---
-Republic of Korea Army - Interpretation Officer/English Instructor 2021 ~ 2024
+Republic of Korea Army - Interpretation Officer/English Instructor 
+<br>2021 ~ 2024
 
 ### Military Citations ###
 --- 
-
+<p>
+Army Commendation, Republic of Korea Army Training and Doctrine Command (ROKA TRADOC) Commanding General (Three-Star General) Commendation awarded for outstanding contribution to the planning of the future army and to the development of science and technology through cooperation with the U.S. Army, 2022
+</p>
