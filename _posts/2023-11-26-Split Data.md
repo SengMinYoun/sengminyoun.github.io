@@ -3,7 +3,7 @@
 layout: single
 title: '01 Split Data'
 categories: Machine_Learning_Lab
-tag: [python, blog, jekyll]
+tag: [python, sklearn, machinelearning]
 toc: true
 author_profile: false
 sidebar:
@@ -43,7 +43,9 @@ import numpy as np
 np.unique(y_test, return_counts=True)
 ```
 
-![image-20231126185826509](../images/2023-11-26-Split Data/image-20231126185826509.png)
+![image-20231126191823947](/images/2023-11-26-Split Data/image-20231126191823947.png)
+
+## Decision Tree Classifier ##
 
 Now we can create and train a model. We will start with a Decision Tree Classifier. 
 
@@ -54,7 +56,7 @@ iris_tree = DecisionTreeClassifier(max_depth=2, random_state=13)
 iris_tree.fit(X_train, y_train)
 ```
 
-![image-20231126190327621](../images/2023-11-26-Split Data/image-20231126190327621.png)
+![image-20231126190327621](/images/2023-11-26-Split Data/image-20231126190327621.png)
 
 Depth determines how much the model branches out. We have to limit the max_depth as having excessive depth could result in high variance. 
 
@@ -79,7 +81,7 @@ plt.figure(figsize=(12,8))
 plot_tree(iris_tree);
 ```
 
-![image-20231126190302790](../images/2023-11-26-Split Data/image-20231126190302790.png)
+![image-20231126190302790](/images/2023-11-26-Split Data/image-20231126190302790.png)
 
 We also try visualizing our decision regions. 
 
@@ -91,7 +93,7 @@ plot_decision_regions(X=X_train, y=y_train, clf=iris_tree, legend=2)
 plt.show()
 ```
 
-![image-20231126190413685](../images/2023-11-26-Split Data/image-20231126190413685.png)
+![image-20231126190413685](/images/2023-11-26-Split Data/image-20231126190413685.png)
 
 There are several wrong predictions.  However, the model isn't overly complex. We can't yet determine whether our model has high variance and therefore is prone to overfitting. 
 
@@ -108,3 +110,32 @@ plot_decision_regions(X=features, y=labels,
                       )
 ```
 
+![image-20231126192139321](/images/2023-11-26-Split Data/image-20231126192139321.png)
+
+### Making Predictions ### 
+
+```python
+features = iris.data 
+labels = iris.target
+
+X_train, X_test, y_train, y_test = train_test_split(features, labels,
+                                                    test_size = 0.2, 
+                                                    stratify=labels, 
+                                                    random_state=13)
+iris_tree = DecisionTreeClassifier(max_depth=2, random_state = 13)
+iris_tree.fit(X_train, y_train)
+
+plt.figure(figsize=(12,8))
+plot_tree(iris_tree);
+```
+
+![image-20231126192334733](/images/2023-11-26-Split Data/image-20231126192334733.png)
+
+```python
+test_data = np.array([[4.3, 2., 1.2, 1.0]])
+iris_tree.predict(test_data)
+
+iris_tree.predict_proba(test_data)
+```
+
+![image-20231126192422377](/images/2023-11-26-Split Data/image-20231126192422377.png)
