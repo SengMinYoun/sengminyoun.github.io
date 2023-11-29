@@ -2,7 +2,7 @@
 
 layout: single
 title: 'The NLP Process [Korean Alert]'
-categories: Natural Language Processing
+categories: Natural_Language_Processing
 tag: [python, deeplearning, machinelearning, NLP]
 toc: true
 author_profile: false
