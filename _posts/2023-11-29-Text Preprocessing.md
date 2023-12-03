@@ -259,18 +259,18 @@ print(trigram)
 POS Tags 
 
 | Number | Tag | Description | 설명 |
-| -- | -- | -- | -- |
-| 1 | `CC` | Coordinating conjunction |
-| 2 | `CD` | Cardinal number |
-| 3 | `DT` | Determiner | 한정사
-| 4 | `EX` | Existential there |
+| :-: | :-: | :-- | -- |
+| 1 | `CC` | Coordinating conjunction ||
+| 2 | `CD` | Cardinal number ||
+| 3 | `DT` | Determiner | 한정사|
+| 4 | `EX` | Existential there ||
 | 5 | `FW` | Foreign word | 외래어 |
 | 6 | `IN` | Preposition or subordinating conjunction | 전치사 또는 종속 접속사 |
 | 7 | `JJ` | Adjective | 형용사 |
 | 8 | `JJR` | Adjective, comparative | 헝용사, 비교급 |
 | 9 | `JJS` | Adjective, superlative | 형용사, 최상급 |
-| 10 | `LS` | List item marker |
-| 11 | `MD` | Modal |
+| 10 | `LS` | List item marker ||
+| 11 | `MD` | Modal ||
 | 12 | `NN` | Noun, singular or mass | 명사, 단수형 |
 | 13 | `NNS` | Noun, plural | 명사, 복수형 |
 | 14 | `NNP` | Proper noun, singular | 고유명사, 단수형 |
@@ -282,9 +282,9 @@ POS Tags
 | 20 | `RB` | Adverb | 부사 |
 | 21 | `RBR` | Adverb, comparative | 부사, 비교급 |
 | 22 | `RBS` | Adverb, superlative | 부사, 최상급 |
-| 23 | `RP` | Particle |
-| 24 | `SYM` | Symbol | 기호
-| 25 | `TO` | to |
+| 23 | `RP` | Particle ||
+| 24 | `SYM` | Symbol | 기호|
+| 25 | `TO` | to ||
 | 26 | `UH` | Interjection | 감탄사 |
 | 27 | `VB` | Verb, base form | 동사, 원형 |
 | 28 | `VBD` | Verb, past tense | 동사, 과거형 |
@@ -292,10 +292,10 @@ POS Tags
 | 30 | `VBN` | Verb, past participle | 동사, 과거분사 |
 | 31 | `VBP` | Verb, non-3rd person singular present | 동사, 비3인칭 단수 |
 | 32 | `VBZ` | Verb, 3rd person singular present | 동사, 3인칭 단수 |
-| 33 | `WDT` | Wh-determiner |
-| 34 | `WP` | Wh-pronoun |
-| 35 | `WP$` | Possessive wh-pronoun |
-| 36 | `WRB` | Wh-adverb |
+| 33 | `WDT` | Wh-determiner ||
+| 34 | `WP` | Wh-pronoun ||
+| 35 | `WP$` | Possessive wh-pronoun ||
+| 36 | `WRB` | Wh-adverb ||
 
 ```python 
 sentence = 'Think like a man of action and act like a man of thought.'
