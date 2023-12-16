@@ -99,6 +99,8 @@ We will cover the t-statistic, F-statisti and the hypothesis test in the theory 
 
 $A^TAX = A^TY$
 
+
+
 Remember from linear algebra with an overdetermined system, we can find X* that minimizes $ax - b$
 
 
