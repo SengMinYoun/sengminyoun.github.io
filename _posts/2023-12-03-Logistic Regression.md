@@ -88,8 +88,7 @@ $g(z) = \frac{1}{1+exp(-z)}$
 
 
 
-
-$-{(y\log(p) + (1 - y)\log(1 - p))} $
+$ loss = -{(y\log(p) + (1 - y)\log(1 - p))} $
 
 
 ## Graphing the Logistic Regression Cost Function
@@ -1270,10 +1269,10 @@ print(classification_report(y_test, pred_bin))
 weighted avg       0.75      0.73      0.74      1300
 
 </pre>
-#### 아무튼 이렇게 threshold 조절은 잘 하지 않는다
 
+* 아무튼 이렇게 threshold 조절은 잘 하지 않는다
 
-## Ensemble 
+### Ensemble 
 
 * 여러 개의 분류기를 생성하고 그 예측을 결합하여 정확한 최종 예측을 기대하는 기법 
 
@@ -1282,10 +1281,6 @@ weighted avg       0.75      0.73      0.74      1300
 
 #### Voting 기법 
 
-![image.png](attachment:image.png)
-
-
-
 소프트보팅 -> 확률의 평균값
 
 
@@ -1293,8 +1288,6 @@ weighted avg       0.75      0.73      0.74      1300
 
 
 #### Bagging 기법 
-
-![image.png](attachment:image.png)
 
 
 * bagging의 경우 데이터의 중복을 허용해서 랜덤 샘플링하고 그 각각의 데이터에 같은 알고리즘을 적용해서 결과를 투표로 결정함. Random sampling with replacement.
@@ -1309,17 +1302,10 @@ weighted avg       0.75      0.73      0.74      1300
 
 
 * 같은 알고리즘으로 구현하는 배깅의 대표적인 방법 
-
 * 앙상블 방법 중에서 비교적 속도가 빠르며 다양한 영역에서 높은 성능을 보여주고 있음
-
 * 부트스트래핑을 여러 개의 작은 데이터 셋을 중첩을 허용해서 만드는 것
-
 * 랜덤 포레스트는 결정 나무를 기본으로 함
-
 * 부트스트래핑으로 샘플링된 데이터마다 결정나무가 예측한 결과를 소프트보팅으로 최종 예측 결론을 얻음
-
-
-![image.png](attachment:image.png)
 
 each tree is trained on different features
 
@@ -1914,8 +1900,6 @@ y_train['action'].value_counts()
 <pre>
 True
 </pre>
-![image.png](attachment:image.png)
-
 
 
 ```python
