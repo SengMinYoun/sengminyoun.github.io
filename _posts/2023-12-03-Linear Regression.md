@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "06 Linear Regression"
+title:  "Linear Regression"
 categories: Machine_Learning_Lab
 tag: [python, machinelearning, linearregression]
 toc: true

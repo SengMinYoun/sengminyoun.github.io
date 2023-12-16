@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: '01 Split Data'
+title: 'Split Data'
 categories: Machine_Learning_Lab
 tag: [python, sklearn, machinelearning]
 toc: true

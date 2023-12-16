@@ -1,7 +1,7 @@
 ---
 
 layout: single
-title: '02 Playing with the Titanic Data'
+title: 'Playing with the Titanic Data'
 categories: Machine_Learning_Lab
 tag: [python, sklearn, machinelearning]
 toc: true

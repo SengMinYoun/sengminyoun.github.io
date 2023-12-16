@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "07 Logistic Regression"
+title:  "Logistic Regression"
 categories: Machine_Learning_Lab
 tag: [python, machinelearning, logisticregression]
 toc: true

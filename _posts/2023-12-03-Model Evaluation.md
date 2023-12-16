@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "05 Model Evaluation"
+title:  "Model Evaluation"
 categories: Machine_Learning_Lab
 tag: [python, machinelearning]
 toc: true

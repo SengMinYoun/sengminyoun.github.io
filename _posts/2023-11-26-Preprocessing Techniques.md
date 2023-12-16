@@ -1,6 +1,6 @@
 ---
 layout: single
-title: '03 Preprocessing Techniques'
+title: 'Preprocessing Techniques'
 categories: Machine_Learning_Lab
 tag: [python, sklearn, machinelearning]
 toc: true

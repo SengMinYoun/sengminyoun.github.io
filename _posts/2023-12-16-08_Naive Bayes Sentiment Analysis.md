@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "10 Naive Bayes Sentiment Analysis"
+title:  "Naive Bayes Sentiment Analysis"
 categories: Machine_Learning_Lab
 tag: [python, machinelearning]
 toc: true
