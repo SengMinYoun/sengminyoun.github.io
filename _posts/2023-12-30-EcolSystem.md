@@ -1,7 +1,6 @@
 ---
 layout: single
 title: 'Ecol-system'
-categories: Projects
 tag: [python, sklearn, machinelearning, deeplearning]
 toc: true
 author_profile: false
