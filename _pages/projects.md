@@ -21,5 +21,5 @@ I attempted to predict factors that lead people to either want to play or play g
 
 [Regression, Clustering]
 
-[Ecol-System](/EcolSystem/){: .btn .btn--danger}
+[Ecol-System](#projects/EcolSystem/){: .btn .btn--danger}
 
