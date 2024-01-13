@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Seng's Data Notes 윤성민 데이터 노트"
+title                    : "Seng's Coding Notes 윤성민 코딩 노트"
 title_separator          : "|"
-subtitle                 : "because data is fun"
+subtitle                 : "because coding is fun"
 name                     : "Seng Min"
-description              : "My journey to becoming a data scientist"
+description              : "My journey to becoming a software engineer"
 url                      : "https://sengminyoun.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,7 +107,7 @@ author:
   name             : "Seng Min Youn 윤성민"
   avatar           : "/assets/images/Blog logo.png"
   bio              : >- 
-    An aspiring data scientist. 
+    An aspiring software engineer. 
     Read more about me :  **[About Me](/aboutme/)**.
 
 

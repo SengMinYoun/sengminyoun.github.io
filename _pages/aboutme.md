@@ -15,10 +15,9 @@ toc_label: "MYSELF"
 <p> 
 Hi! 
 I was born in Korea, but I grew up mostly in Hong Kong. 
-I have been studying data science and machine learning since 2022. 
-Though I am currently a first lieutenant in the Republic of Korea Army, 
-I would like to work at a Big Data/Machine Learning laboratory upon being discharged next year. 
+Though I am currently a first lieutenant in the Republic of Korea Army, I would like to work as a software engineer in the future. 
 </p>
+
 
 
 <p>
@@ -31,13 +30,10 @@ In my spare time, I like to play the guitar and listen to music.
 ### Education ###
 ---
 <p>
-Georgia Tech - Online Masters in Data Analytics
-<br>2023 ~
-</p>
-<p>
 Hanyang University - Bachelors in Business Administration    
 <br>2019 ~ 2021 (transferred)
 </p>
+
 
 
 
