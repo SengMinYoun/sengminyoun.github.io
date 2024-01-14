@@ -136,7 +136,7 @@ javascript returns the assigned change as an output when a variable is changed.
 
 ## Constants 
 
-Like the name suggests constants do not change. 
+Like the name suggests constants are immutable. 
 
 ```javascript
 > const value1 = '12345'
